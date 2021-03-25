@@ -173,28 +173,31 @@
         </div>
     </div>
 
-	<!--Nav-->
-	<nav class="top-0 mt-0 w-full">
-        <div class="bg-white flex items-end px-10 py-2">
-            <img class="h-20" src="img/logo.png" id="image">
-            <p class="font-normal px-2">Better crops. <span class="font-medium">Better</span> yields.</p>
+	  <!--Nav-->
+	  <nav class="top-0 mt-0 w-full">
+        <div class="bg-white flex justify-between px-10 py-2">
+            <div class="lg:flex items-end">
+              <img class="h-20 flex-shrink-0" src="img/logo.png" id="image">
+              <p class="text-xl font-normal lg:px-2 truncate">Better crops. <span class="font-medium">Bigger</span> yields.</p>
+            </div>
+            <div class="flex items-end">
+              <button onclick="button1()" class="truncate bg-white bg-opacity-25 text-gray-800 font-bold md:px-4 px-1 py-2 mx-1 uppercase text-md focus:outline-none hover:bg-white hover:text-gray-800 duration-200">Our foliar formula</button>
+              <button onclick="button2()" class="truncate bg-white bg-opacity-25 text-gray-800 font-bold md:px-4 px-1 py-2 mx-1 uppercase text-md focus:outline-none hover:bg-white hover:text-gray-800 duration-200">contact us</button>
+          </div>
         </div>
-        <div class="w-full py-1 bg-black bg-opacity-25 flex justify-end">
-            <button onclick="button1()" class="bg-black bg-opacity-25 text-white font-medium px-4 py-2 mx-1 uppercase text-md focus:outline-none hover:bg-white hover:text-gray-800 duration-200">Our foliar formula</button>
-            <button onclick="button2()" class="bg-black bg-opacity-25 text-white font-medium px-4 py-2 mx-1 uppercase text-md focus:outline-none hover:bg-white hover:text-gray-800 duration-200">contact us</button>
-        </div>
+        <div class="block w-full h-12 bg-black bg-opacity-25"></div>
     </nav>
 
     <!-- Slideshow -->
-    <div class="marquee w-screen">
+    <div class="marquee w-screen border-t-4 border-b-4 border-yellow-400">
         <ul class="marquee-content">
-          <li><i class="fab fa-github"><img class="w-full h-36 lg:h-40 xl:h-48" src="img/1.jpg" /></i></li>
-          <li><i class="fab fa-github"><img class="w-full h-36 lg:h-40 xl:h-48" src="img/2.jpg" /></i></li>
-          <li><i class="fab fa-github"><img class="w-full h-36 lg:h-40 xl:h-48" src="img/3.jpg" /></i></li>
-          <li><i class="fab fa-github"><img class="w-full h-36 lg:h-40 xl:h-48" src="img/4.jpg" /></i></li>
-          <li><i class="fab fa-github"><img class="w-full h-36 lg:h-40 xl:h-48" src="img/5.jpg" /></i></li>
-          <li><i class="fab fa-github"><img class="w-full h-36 lg:h-40 xl:h-48" src="img/6.jpg" /></i></li>
-          <li><i class="fab fa-github"><img class="w-full h-36 lg:h-40 xl:h-48" src="img/7.jpg" /></i></li>
+          <li><i class="fab fa-github"><img class="object-cover w-full h-36 lg:h-40 xl:h-48" src="img/1.jpg" /></i></li>
+          <li><i class="fab fa-github"><img class="object-cover w-full h-36 lg:h-40 xl:h-48" src="img/2.jpg" /></i></li>
+          <li><i class="fab fa-github"><img class="object-cover w-full h-36 lg:h-40 xl:h-48" src="img/3.jpg" /></i></li>
+          <li><i class="fab fa-github"><img class="object-cover w-full h-36 lg:h-40 xl:h-48" src="img/4.jpg" /></i></li>
+          <li><i class="fab fa-github"><img class="object-cover w-full h-36 lg:h-40 xl:h-48" src="img/5.jpg" /></i></li>
+          <li><i class="fab fa-github"><img class="object-cover w-full h-36 lg:h-40 xl:h-48" src="img/6.jpg" /></i></li>
+          <li><i class="fab fa-github"><img class="object-cover w-full h-36 lg:h-40 xl:h-48" src="img/7.jpg" /></i></li>
         </ul>
       </div>    
 
@@ -202,15 +205,15 @@
 	<!--Hero-->
     <div id="page" class="xl:flex mx-10 md:mx-10 xl:mx-14">
         <div class="xl:w-3/5 flex items-center my-10">
-            <div class="xl:w-2/5 w-1/3">
-                <img class="xl:py-20 xl:pl-20 h-96 xl:h-auto float-right" src="img/bottle.png" style="-webkit-filter: drop-shadow(5px 5px 5px #222); filter: drop-shadow(5px 5px 5px #222);" class="object-scale-down float-right"/>
+            <div class="xl:w-2/5 md:w-1/4 w-1/3">
+                <img class="xl:py-20 xl:pl-20 h-96 xl:h-auto float-right flex-shrink-0" src="img/bottle.png" style="-webkit-filter: drop-shadow(5px 5px 5px #222); filter: drop-shadow(5px 5px 5px #222);" class="object-scale-down float-right"/>
             </div>
-            <div class="xl:w-3/5 w-2/3 text-white pl-5" style="text-shadow: 0px 2px 2px rgba(0,0,0,0.6), 0px 4px 10px rgba(0,0,0,0.4), 0px 20px 18px rgba(0,0,0,0.4);">
+            <div class="xl:w-3/5 md:w-3/4 w-2/3 text-white pl-5" style="text-shadow: 0px 2px 2px rgba(0,0,0,0.6), 0px 4px 10px rgba(0,0,0,0.4), 0px 20px 18px rgba(0,0,0,0.4);">
                 <p class="font-bold text-5xl tracking-tighter italic">Proven to be the best!</p>
                 <p class="font-bold text-3xl">Gro Plant Booster</p>
                 <p class="font-medium text-2xl">Seeing is believing</p>
-                <div class="xl:w-1/2">
-                    <p class="font-normal text-xl font-light">Seaweed-based foliar plant growth regulator that delivers essential micro and secondary macro-nutrients to each plant. Healthier plants and significantly higher yields.</p>
+                <div class="xl:w-1/2 w-5/6 my-1">
+                    <p class="font-normal text-xl font-light leading-tight">Seaweed-based foliar plant growth regulator that delivers essential micro and secondary macro-nutrients to each plant. Healthier plants and significantly higher yields.</p>
                 </div>
             </div>
         </div>
